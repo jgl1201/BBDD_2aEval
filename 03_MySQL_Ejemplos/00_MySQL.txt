@@ -1,0 +1,61 @@
+-----------------------------------------
+DDL (Data Description Language)
+-----------------------------------------
+CREATE ---> crear
+ALTER  ---> modificar
+DROP   ---> borrar (permanente)
+-----------------------------------------
+
+-----------------------------------------
+DCL (Data Control Language)
+-----------------------------------------
+GRANTS ---> otorga privilegios
+REVOKE ---> elimina privilegios
+-----------------------------------------
+
+-----------------------------------------
+DML (Data Manipulation Language)
+-----------------------------------------
+SELECT ---> realiza consultas en los datos
+INSERT ---> inserta datos
+UPDATE ---> actualiza datos
+DELETE ---> elimina datos
+-----------------------------------------
+
+-----------------------------------------
+TIPOS DE DATOS
+-----------------------------------------
+Numéricos
+	int / integer
+	float
+	double
+	smallint	(short)
+	bigint		(long)
+	boolean		(1 / 0)
+	tinyint		(byte)
+Texto
+	char (núme.caracteres)
+	varchar (n.caracteres)
+Texto 
+  largo
+	text
+	mediumtext
+	longtext
+Fecha
+	date      --> fecha
+	datetime  --> fecha y hora
+	time      --> hora
+	year      --> año (2/4 digitos)
+	timestamp
+Enumerados
+	enum('valor1', 'valor2')
+	set('valor1', 'valor2')
+Restricciones
+	primary key
+	unique
+	not null
+	references 'nbTablaAjena'(nbColumnaAjena)
+	foreign key(nbColumna) references 'nbTablaAjena'(nbColumnaAjena)
+	constraint 'nombre' ---> dar nombre a la restricción
+-----------------------------------------
+
